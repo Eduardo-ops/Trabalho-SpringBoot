@@ -14,6 +14,15 @@ public class Payment {
 	private int numberOfinstallments;
 	private int installmentsPaid;
 
+	public Payment() {
+	}
+
+	public Payment(int id, int numberOfinstallments, int installmentsPaid) {
+		this.id = id;
+		this.numberOfinstallments = numberOfinstallments;
+		this.installmentsPaid = installmentsPaid;
+	}
+
 	public int getId() {
 		return id;
 	}

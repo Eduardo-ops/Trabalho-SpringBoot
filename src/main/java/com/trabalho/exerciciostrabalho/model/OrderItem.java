@@ -12,6 +12,15 @@ public class OrderItem {
 	private int amount;
 	private double price;
 
+	public OrderItem() {
+	}
+
+	public OrderItem(Double discout, int amount, Double price) {
+		this.discount = discount;
+		this.amount = amount;
+		this.price = price;
+	}
+
 	public double getDiscount() {
 		return discount;
 	}

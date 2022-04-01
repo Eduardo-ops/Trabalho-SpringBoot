@@ -19,6 +19,21 @@ public class Address {
 	private String city;
 	private String state;
 
+	public Address() {
+	}
+
+	public Address(int id, String street, String number, String extra, String neighbour, String zipCode, String city,
+			String State) {
+		this.id = id;
+		this.street = street;
+		this.number = number;
+		this.neighbour = neighbour;
+		this.zipCode = zipCode;
+		this.city = city;
+		this.state = state;
+
+	}
+
 	public int getId() {
 		return id;
 	}

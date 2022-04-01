@@ -1,4 +1,4 @@
-package com.trabalho.exerciciostrabalho.model;
+package com.trabalho.exerciciostrabalho.model.support;
 
 import java.util.stream.Stream;
 

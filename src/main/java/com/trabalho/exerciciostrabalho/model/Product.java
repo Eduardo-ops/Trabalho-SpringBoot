@@ -15,6 +15,16 @@ public class Product {
 	private double price;
 	private boolean active;
 
+	public Product() {
+	}
+
+	public Product(int id, String name, Double price, boolean active) {
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.active = active;
+	}
+
 	public int getId() {
 		return id;
 	}

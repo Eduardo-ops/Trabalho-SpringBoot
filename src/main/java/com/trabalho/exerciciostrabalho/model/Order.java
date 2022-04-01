@@ -15,6 +15,14 @@ public class Order {
 	private int id;
 	private Date dateRequest;
 
+	public Order() {
+	}
+
+	public Order(int id, Date dateRequest) {
+		this.id = id;
+		this.dateRequest = dateRequest;
+	}
+
 	public int getId() {
 		return id;
 	}
